@@ -1,3 +1,7 @@
 Flask==1.0.2
 pandas==0.24.2
 scikit-learn==0.20.3
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+scipy>=1.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
